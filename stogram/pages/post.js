@@ -12,7 +12,9 @@ export default function Home () {
     event.preventDefault()
 
     showMessage('Posting')
-    const client = new Web3Storage({ token })
+    const Web_STORAGE_TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDUxODdDYTU3ZWU1MEEwOWZmOUI2NDAzMDRiQTlDNEZBOTE3MjlDM0YiLCJpc3MiOiJ3ZWIzLXN0b3JhZ2UiLCJpYXQiOjE2ODQ3NzU2NjQ4MjYsIm5hbWUiOiJBeXVzaCJ9.rR03Th49YPmOVoy8n8teXTTImO1P5wz4BxAFDFAb3wM'
+const client = new Web3Storage({ token: Web_STORAGE_TOKEN })
+    // const client = new Web3Storage({ token })
 
     showMessage('> 🤖 chunking and hashing the files (in your browser!) to calculate the Content ID')
     const cid = await client.put(files, {
@@ -50,8 +52,8 @@ Upload Posts</div>
 <div className=" p-4 mx-8 right flex flex-col">
 <form className='px-8' id='upload-form' onSubmit={handleSubmit}>
 <div className=" p-2 mx-4 right flex flex-col">
-<label className='my-2 font-mono text-md font-semibold' htmlFor='token'>Paste your web3.storage API token here</label>
-<input className='text-black px-8 flex w-10/12' type='password' id='token' onChange={e => setToken(e.target.value)} required />
+{/* <label className='my-2 font-mono text-md font-semibold' htmlFor='token'>Paste your web3.storage API token here</label> */}
+{/* <input className='text-black px-8 flex w-10/12' type='password' id='token' onChange={e => setToken(e.target.value)} required /> */}
 <label className='my-2 font-mono text-md font-semibold' htmlFor='filepicker'>Pick files to store</label>
 <input type='file' id='filepicker' name='fileList' onChange={e => setFiles(e.target.files)} multiple required />
 <label className='my-2 font-mono text-md font-semibold'>Description</label>
