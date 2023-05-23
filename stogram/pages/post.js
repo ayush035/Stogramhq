@@ -49,7 +49,7 @@ const client = new Web3Storage({ token: Web_STORAGE_TOKEN })
 Upload Posts</div>
 </div>
 </div>
-<div className=" p-4 mx-8 right flex flex-col">
+<div className=" p-2 mx-8 right flex flex-col">
 <form className='px-8' id='upload-form' onSubmit={handleSubmit}>
 <div className=" p-2 mx-4 right flex flex-col">
 {/* <label className='my-2 font-mono text-md font-semibold' htmlFor='token'>Paste your web3.storage API token here</label> */}
