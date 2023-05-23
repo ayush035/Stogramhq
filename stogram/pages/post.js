@@ -1,6 +1,7 @@
 import React, { useState, useReducer } from 'react'
 import { Web3Storage } from 'web3.storage'
 import Navbar from '@/components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home () {
   const [messages, showMessage] = useReducer((msgs, m) => msgs.concat(m), [])
@@ -77,6 +78,7 @@ Upload Posts</div>
         
   {messages.map((m, i) => <div key={m + i}>{m}</div>)}
    </div>
+   <Footer/>
    </>
   )
 }
