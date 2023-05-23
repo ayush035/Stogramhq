@@ -24,7 +24,7 @@ export default function Navbar() {
 
         <div className='hover:text-white delay-50 text-md font-semibold font-mono '>
         
-            <Link href="/">Profile</Link></div>
+            <Link href="/profile">Profile</Link></div>
               {/* <div className=' mx-2 my-2 '> */}            
         <ConnectButton/>
             </ul>
