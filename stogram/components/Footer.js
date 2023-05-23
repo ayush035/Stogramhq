@@ -14,7 +14,7 @@ return (
 
     <div className='transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-white font-mono font-bold text-lg'>
 
-    <a href='https://github.com/ayush035/raise-1'>
+    <a href='https://github.com/ayush035/final'>
     {/* <img src='/github-1.png'>
         </img> */}
         Github
