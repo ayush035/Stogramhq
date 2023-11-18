@@ -14,7 +14,7 @@ return (
 
     <div className='transition ease-in-out delay-50 hover:-translate-y-1 cursor-pointer text-white font-mono font-bold text-lg'>
 
-    <a href='https://github.com/ayush035/final'>
+    <a href='https://github.com/'>
     {/* <img src='/github-1.png'>
         </img> */}
         Github
@@ -36,7 +36,7 @@ return (
        
     </div>
     <div className='text-white my-4'>
-        Copyright © 2022 Raise Inc. All rights reserved
+        Copyright © 2023 Degram Inc. All rights reserved
         </div>
 
     </div>

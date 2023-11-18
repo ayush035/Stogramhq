@@ -22,7 +22,7 @@ export default function profile()
   <Navbar/>
 
   <div className=' flex justify-center'>
-    <div className=' text-3xl font-mono font-semibold text-green-500 my-6'>
+    <div className=' text-3xl font-mono font-semibold text-white my-6'>
         Your Posts
     </div>
   </div>
@@ -36,7 +36,7 @@ export default function profile()
                     </Image></a>
                     </div>
                     <div className=' flex justify-center'>
-                    <div className=' text-green-500 font-mono my-2'>
+                    <div className=' text-white font-mono my-2'>
                         <a href='https://bafybeietu4bacniu3vfiparmvxqmd4oclzdiieqva2gaz2exyif46ne4tu.ipfs.dweb.link'>
                         View on IPFS
                         </a>
@@ -52,7 +52,7 @@ export default function profile()
                     </Image></a>
                     </div>
                     <div className=' flex justify-center'>
-                    <div className=' text-green-500 font-mono my-2'>
+                    <div className=' text-white font-mono my-2'>
                         <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link'>
                         View on IPFS
                         </a>
