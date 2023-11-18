@@ -2,8 +2,8 @@ import React, { useState, useReducer } from 'react'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import { Web3Storage } from 'web3.storage'
-import Logo from '../public/Logo.png'
-import pic from '../public/pic.jpg'
+import Logo from '../public/Logo.jpeg'
+import pic2 from '../public/pic2.jpeg'
 import Footer from '../components/Footer'
 
 
@@ -47,7 +47,7 @@ export default function profile()
                     <div className=' bg-gray-900 text-white mx-10 my-2 rounded-xl  '>
                 <div className="mx-1 my-1 cursor-pointer">
                 <a href='https://bafybeiab2w2lb6dugorkaxoi3fsl7666bh2m2erxpk7ahvgi5voxvxcvtu.ipfs.dweb.link/photo_2023-04-28_20-29-12.jpg'>
-                    <Image src={pic} 
+                    <Image src={pic2} 
                     alt='' height="260px" width='400px'>
                     </Image></a>
                     </div>
